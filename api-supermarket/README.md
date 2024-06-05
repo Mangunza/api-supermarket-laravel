@@ -35,3 +35,10 @@ criar o arquivo de rotas para API
 
 php artisan install:api
 ...
+Executar artisan migrate
+...
+Iniciar o projeto em laravel:
+php aritsan serve
+...
+Executar as seed:
+php artisan db:seed

@@ -24,6 +24,7 @@ class UserController extends Controller
     {
         //Recupera os usuarios do BD, ordenados pelo id em ordem decrescente, paginados
 
+       //$users = User::get(); // simples vizualização de um lista de usuarios
         //$users = User::orderBy('id', 'DESC')->get();
         $users = User::orderBy('id', 'DESC')->paginate(6); // permitir vizualizar até 6 entidades por pagina
 
